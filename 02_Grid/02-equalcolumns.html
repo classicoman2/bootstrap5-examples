@@ -2,17 +2,16 @@
 <html lang="es">
 
 <head>
-    <title>El Grid de BootStrap 4</title>
+    <title>Bootstrap 4</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
         div.container div div {
-            height: 600px;
+            height: 100px;
         }
         
         div.red {
@@ -26,8 +25,21 @@
 </head>
 
 <body>
-
+    <p>Using the class <i>col</i> to create equal width columns</p>
     <div class="container">
+        <div class="row">
+            <div class="col red"></div>
+            <div class="col blue"></div>
+            <div class="col red"></div>
+        </div>
+        <div class="row">
+            <div class="col blue"></div>
+            <div class="col red"></div>
+            <div class="col blue"></div>
+            <div class="col red"></div>
+            <div class="col blue"></div>
+
+        </div>
         <div class="row">
             <div class="col red"></div>
             <div class="col blue"></div>
@@ -35,13 +47,8 @@
             <div class="col blue"></div>
             <div class="col red"></div>
             <div class="col blue"></div>
-            <div class="col red"></div>
-            <div class="col blue"></div>
-            <div class="col red"></div>
-            <div class="col blue"></div>
-            <div class="col red"></div>
-            <div class="col blue"></div>
         </div>
+    </div>
     </div>
 
     <!-- Optional JavaScript -->
