@@ -1,0 +1,108 @@
+<!doctype html>
+<!--
+    BOOTSTRAP 4.3
+    -------------
+    Examples
+    Toni Amengual. 2019.
+-->
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Grid, example</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        /* Colorejant les caselles per poder distingir-les més fàcilment */
+        
+        div {
+            border: 1px black dotted;
+        }
+        
+        .row div:nth-child(odd) {
+            background-color: azure;
+        }
+        
+        .row div:nth-child(even) {
+            background-color: lightgreen;
+        }
+        
+        p {
+            font-size: 0.9em;
+        }
+        /** **/
+        
+        .heading1 {
+            display: none;
+        }
+        
+        @media only screen and (max-width: 576px) {
+            /* Extra small */
+            .extraSmall {
+                display: block;
+            }
+        }
+        
+        @media only screen and (min-width: 576px) and (max-width: 768px) {
+            /* Small (sm) */
+            .sm {
+                display: block;
+            }
+        }
+        
+        @media only screen and (min-width: 768px) and (max-width: 992px) {
+            /* Medium (md) */
+            .md {
+                display: block;
+            }
+        }
+        
+        @media only screen and (min-width: 992px) and (max-width: 1200px) {
+            /* Large (lg) */
+            .lg {
+                display: block;
+            }
+        }
+        
+        @media only screen and (min-width: 1200px) {
+            /* Extra Large (xl) */
+            .xl {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>Extra Small - less than 576px</p>
+    <p>Small - 576px to 768px</p>
+    <p>Extra Small - 768px to 992px</p>
+    <p>Large - 992px to 1200px</p>
+    <p>Extra Large - more than 1200px</p>
+    <h1 class="extraSmall heading1">Extra small</h1>
+    <h1 class="sm heading1">Small (sm)</h1>
+    <h1 class="md heading1">Medium (md)</h1>
+    <h1 class="lg heading1">Large (lg)</h1>
+    <h1 class="xl heading1">Extra Large (xl)</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-2 col-lg-5 col-md-6 col-sm-3"><b>col-xl-2</b> <i>col-lg-5</i> col-md-6 col-sm-3</div>
+            <div class="col-xl-2 col-lg-7 col-md-6 col-sm-3"><b>col-xl-2</b> <i>col-lg-7</i> col-md-6 col-sm-3</div>
+            <div class="col-xl-2 col-lg-5 col-md-3 col-sm-3"><b>col-xl-2</b> <i>col-lg-5</i> col-md-3 col-sm-3</div>
+            <div class="col-xl-2 col-lg-4 col-md-9 col-sm-3"><b>col-xl-2</b> <i>col-lg-4</i> col-md-9 col-sm-3</div>
+            <div class="col-xl-1 col-lg-1 col-md-4 col-sm-3"><b>col-xl-1</b> <i>col-lg-1</i>col-md-4 col-sm-3</div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-3"><b>col-xl-3</b> <i>col-lg-3</i> col-md-4 col-sm-3</div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
