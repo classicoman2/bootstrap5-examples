@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "sass": "sass scss/custom.scss css/custom.css",
+    "sass-watch": "sass --watch scss/custom.scss css/custom.css"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {
+    "sass": "^1.32.5"
+  }
+}
