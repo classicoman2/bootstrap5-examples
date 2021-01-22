@@ -10,6 +10,8 @@ A personal collection of Bootstrap snippets and examples.
 - [Official BS Examples!](https://getbootstrap.com/docs/4.5/examples/)
 
 ## VSCode Extensions
+Some VS Extensions,
+
 - https://github.com/Zignd/HTML-CSS-Class-Completion
 - https://github.com/1tontech/bootstrap4-snippets.git
 
