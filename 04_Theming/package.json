@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "sass": "sass src/scss/custom.scss src/css/custom.css",
-    "sass-watch": "sass --watch src/scss/custom.scss src/css/custom.css"
+    "sass": "sass src/scss/custom.scss:src/css/custom.css src/scss/foo.scss:src/css/foo.css",
+    "sass-watch": "sass --watch src/scss/custom.scss:src/css/custom.css src/scss/foo.scss:src/css/foo.css"
   },
   "dependencies": {},
   "devDependencies": {

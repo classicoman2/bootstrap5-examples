@@ -13,7 +13,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>How to use a breakpoint, sm</title>
+    <title>Grid, example</title>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -22,26 +22,32 @@
       crossorigin="anonymous"
     />
     <style>
-      .row > div {
+      /* Colorejant les caselles per poder distingir-les més fàcilment */
+
+      .row div:nth-child(odd) {
+        background-color: lightcyan;
+      }
+
+      .row div:nth-child(even) {
+        background-color: lightgreen;
+      }
+
+      p {
+        font-size: 0.9em;
+      }
+
+      .container {
         border: 1px solid black;
       }
     </style>
   </head>
 
   <body>
-    <h1>col-sm</h1>
-    <p>
-      When the container has a size bigger than 576, it adopts the view that we
-      specify
-    </p>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3">col-sm-3</div>
-        <div class="col-sm-4">col-sm-4</div>
-        <div class="col-sm-5">col-sm-5</div>
-        <div class="col-sm-6">col-sm-6</div>
-        <div class="col-sm-4">col-sm-4</div>
-        <div class="col-sm-2">col-sm-2</div>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-sm-2">foo</div>
+        <div class="col-auto">Agafa l'espai que necessita</div>
+        <div class="col-sm-2">bar</div>
       </div>
     </div>
 

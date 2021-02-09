@@ -9,11 +9,8 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Grid, example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>How to use a breakpoint, sm</title>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -22,37 +19,25 @@
       crossorigin="anonymous"
     />
     <style>
-      /* Colorejant les caselles per poder distingir-les més fàcilment */
-
-      .row div:nth-child(odd) {
-        background-color: lightcyan;
-      }
-
-      .row div:nth-child(even) {
-        background-color: lightgreen;
-      }
-
-      p {
-        font-size: 0.9em;
-      }
-
-      .container {
+      .row > div {
         border: 1px solid black;
       }
     </style>
   </head>
 
   <body>
+
     <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col col-lg-2">col col-lg-2</div>
-        <div class="col-md-auto">Variable width content</div>
-        <div class="col col-lg-2">col col-lg-2</div>
-      </div>
       <div class="row">
-        <div class="col">1 of 3</div>
-        <div class="col-md-auto">Variable width content</div>
-        <div class="col col-lg-2">3 of 3</div>
+        <div class="col-sm-auto col-md col-lg">
+          aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+        </div>
+        <div class="col-sm-1 col-md-8">
+          One of three columns
+        </div>
+        <div class="col-sm-6 col-md">
+          One of three columns
+        </div>
       </div>
     </div>
 
