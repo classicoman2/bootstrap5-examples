@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AACA,AAAA,IAAI,CAAC;EACJ,KAAK,EAAC,IAAI;CACV",
-    "sources": [
-        "01-tipografia.scss"
-    ],
-    "names": [],
-    "file": "01-tipografia.css"
-}
+{"version":3,"sources":["01-tipografia.scss"],"names":[],"mappings":"AACA;EACC,WAAA;AAAD","file":"01-tipografia.css"}
